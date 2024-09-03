@@ -295,8 +295,8 @@ var Game = {
                 head.y = snake[0].y;
             }
             // Reduce the game field size.
-            heigthGame -= 113;
-            widthGame -= 113;
+            heigthGame -= 50;
+            widthGame -= 50;
     
             if (heigthGame < 300 || widthGame < 300) {
                 game.scale.setGameSize(800, 800);
